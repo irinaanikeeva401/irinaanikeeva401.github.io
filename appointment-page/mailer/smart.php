@@ -18,12 +18,12 @@ $mail->CharSet = 'utf-8';
 try {
     $mail->SMTPDebug = 3;
     $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'sandbox.smtp.mailtrap.io';  // Specify main and backup SMTP servers
+    $mail->Host = 'mx1.cityhost.com.ua';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'e83739c9773d0e';                 // Наш логин
-    $mail->Password = '87140967734be0';                           // Наш пароль от ящика
+    $mail->Username = 'main-eko-3d-kt@eko3dkt.com.ua';                 // Наш логин
+    $mail->Password = 'hGzTlOc7bc';                           // Наш пароль от ящика
     $mail->SMTPSecure = 'TLS';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = 2525;                                    // TCP port to connect to
+    $mail->Port = 587;                                    // TCP port to connect to
      
     $mail->setFrom('main-eko-3d-kt@eko3dkt.com.ua', 'Website EKO 3D KT');   // От кого письмо 
     $mail->addAddress('irina.anikeeva401@gmail.com');     // Add a recipient
