@@ -1,0 +1,93 @@
+.description {
+    display: flex;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    
+
+    &__img {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        width: 469px;
+        height: 331px;
+        color: #dcdcdc;
+        z-index: 0;
+
+        img {
+            display: block;
+            margin-top: 60px;
+            width: 459px;
+            height: 321px;
+            z-index: 1;
+            
+        }
+    }
+
+    .presentation {
+        display: block;
+        font-family: 'Inter', sans-serif;
+        width: 50%;
+        font-size: 18px;
+        line-height: 180%;
+        font-weight: 400;
+        color: #000000;
+        margin-top: 110px;
+        margin-right: 20px;
+        text-align: left;
+        &__second {
+            margin-top: 60px;
+        }
+    }
+}
+.line {
+    display: block;
+    height: 80px;
+    width: 100%;
+    align-items: flex-end;
+    background-color: #dcdcdc;
+    margin-top: 75px;
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            display: block;
+            margin: 0 auto;
+            width: 40px;
+            height: 40px;
+            padding: 5px 15px;
+            img {
+                display: block;
+                width: 40px;
+                height: 40px;
+                margin-top: 15px;
+                
+                -webkit-transition: all 0.5s ease-out;
+                -moz-transition: all 0.5s ease-out;
+                -o-transition: all 0.5s ease-out;
+                -ms-transition: all 0.5s ease-out;
+                transition: all 0.5s ease-out;
+                
+                &:hover {
+                    -webkit-transform: rotate(-20deg);
+                    -moz-transform: rotate(-20deg);
+                    -o-transform: rotate(-20deg);
+                    -ms-transform: rotate(-20deg);
+                    transform: rotate(-20deg) scale(1.3);
+                }
+                    
+            }
+            #phone {
+                width: 30px;
+                height: 30px;
+                margin-top: 20px;
+            }
+            #message {
+                width: 28px;
+                height: 28px;
+                margin-top: 20px;
+            }
+            
+        } 
+    }  
+}

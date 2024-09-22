@@ -1,0 +1,19 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+body {
+    display: block;
+    margin: 0 auto;
+    /*padding: 0;
+    min-height: 100vh; */
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@import 'blocks/header';
+@import 'blocks/nav';
+@import 'blocks/description';
